@@ -1,0 +1,108 @@
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+
+/* reseteo html */
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.navbar{
+    background-image: url(../Assets/images/bannerIndex.jpg);
+    background-size: contain;
+    display: flex;
+    align-items: flex-end;
+}
+.nav-link{
+    color: white!important;
+}
+.btn{
+    color: white!important;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+  }
+.nav-item{
+    background: linear-gradient(to right, darkblue, lightblue)!important;
+}
+.navbar-toggler {
+    border-color: white!important;
+  } 
+.navbar.playHeader{
+    background-image: url(../Assets/images/bannerPlay.jfif);
+    padding-bottom: 0;
+}
+.navbar.xboxHeader{
+    background-image: url(../Assets/images/bannerXbox.jpg);
+    padding-bottom: 0;
+}
+.navbar.nintendoHeader{
+    background-image: url(../Assets/images/bannerNintendo.jpg);
+    padding-bottom: 0;
+}   
+.navbar.playHeader .nav-item{
+    background: linear-gradient(to right, rgb(34, 34, 39), rgb(117, 125, 128))!important;
+}
+.xboxHeader .nav-item{
+    background: linear-gradient(to right, rgb(22, 77, 39), rgb(54, 153, 79))!important;
+}
+.nintendoHeader .nav-item{
+    background: linear-gradient(to right, rgb(211, 20, 20), rgb(248, 66, 66))!important;
+}
+
+/* Index body */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.705);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.carousel-control-prev,.carousel-control-next{
+    height: 50px;
+    width: 50px;
+}
+.carousel-indicators li{
+    background-color: black;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside{
+    padding: 3rem !important;
+}
+/* Lista de juegos */
+.imgjuegos{
+    border-radius: 10px!important;
+}
+.imgjuegos:hover{
+    border: solid;
+    border-color: rgba(28, 28, 155, 0.884);
+    transform: scale(1.1,1.1);
+}
+
+
+h2{
+    margin: 30px;
+}
+h4{
+    margin: 30px;
+}
+h5{
+    margin: 30px;
+}
+/* Footer */
+.page-footer{
+    background-image: url(../Assets/images/footer.jpg);
+    color: white!important;
+    margin-top: 2rem;
+}
