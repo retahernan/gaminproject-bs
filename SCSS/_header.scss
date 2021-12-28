@@ -1,0 +1,54 @@
+.navbar{
+    background-image: url(../Assets/images/bannerIndex.jpg);
+    background-size: contain;
+    display: flex;
+    align-items: flex-end;
+
+    & .navbar-toggler {
+        border-color: $color-blanco;
+
+        &.navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+          }
+      } 
+
+    & .nav-item{
+        background: linear-gradient(to right, $colormenuprimario, $colormenusecundario)!important;
+
+        & .nav-link{
+            color: $color-blanco!important;
+        }
+        & .nav-link:hover{
+            font-size: 150%;
+        }
+    }
+    
+    & .btn{
+        color: $color-blanco!important;
+    }
+}
+
+.navbar.playHeader{
+    background-image: url(../Assets/images/bannerPlay.jfif);
+    padding-bottom: 0;
+
+    & .nav-item{
+        background: linear-gradient(to right, $colorplayprimario, $colorplaysecundario)!important;
+    }
+}
+.navbar.xboxHeader{
+    background-image: url(../Assets/images/bannerXbox.jpg);
+    padding-bottom: 0;
+
+    & .nav-item{
+        background: linear-gradient(to right, $colorxboxprimario, $colorxboxsecundario)!important;
+    }
+}
+.navbar.nintendoHeader{
+    background-image: url(../Assets/images/bannerNintendo.jpg);
+    padding-bottom: 0;
+
+    & .nav-item{
+        background: linear-gradient(to right, $colornintendoprimario, $colornintendosecundario)!important;
+    }
+}   
