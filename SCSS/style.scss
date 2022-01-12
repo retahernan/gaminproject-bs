@@ -6,8 +6,6 @@
 @import "main";
 @import "footer";
 
-
-
 /* reseteo html */
 *{
     margin: o;
@@ -15,16 +13,19 @@
     box-sizing: border-box;
 }
 
+.margenes{
+    margin: 30px;
+}
 /* Header */
 /* Index body */
 
 h2{
-    margin: 30px;
+    @extend .margenes
 }
 h4{
-    margin: 30px;
+    @extend .margenes
 }
 h5{
-    margin: 30px;
+    @extend .margenes
 }
 /* Footer */

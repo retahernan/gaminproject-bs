@@ -1,3 +1,6 @@
+.margeninterior{
+    padding-bottom: 0;
+}
 .navbar{
     background-image: url(../Assets/images/bannerIndex.jpg);
     background-size: contain;
@@ -30,7 +33,7 @@
 
 .navbar.playHeader{
     background-image: url(../Assets/images/bannerPlay.jfif);
-    padding-bottom: 0;
+    @extend .margeninterior;
 
     & .nav-item{
         background: linear-gradient(to right, $colorplayprimario, $colorplaysecundario)!important;
@@ -38,7 +41,7 @@
 }
 .navbar.xboxHeader{
     background-image: url(../Assets/images/bannerXbox.jpg);
-    padding-bottom: 0;
+    @extend .margeninterior;
 
     & .nav-item{
         background: linear-gradient(to right, $colorxboxprimario, $colorxboxsecundario)!important;
@@ -46,7 +49,7 @@
 }
 .navbar.nintendoHeader{
     background-image: url(../Assets/images/bannerNintendo.jpg);
-    padding-bottom: 0;
+    @extend .margeninterior;
 
     & .nav-item{
         background: linear-gradient(to right, $colornintendoprimario, $colornintendosecundario)!important;
