@@ -23,7 +23,7 @@
   color: white !important;
 }
 .navbar .nav-item .nav-link:hover {
-  font-size: 150%;
+  text-shadow: 0.1em 0.1em black !important;
 }
 .navbar .btn {
   color: white !important;
@@ -92,77 +92,6 @@
 }
 .row aside {
   padding: 0 3rem 0 0 !important;
-}
-.row .image-flip:hover .backside,
-.row .image-flip.hover .backside {
-  -webkit-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
-  -o-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
-  /* border-radius: .25rem; */
-}
-.row .image-flip:hover .frontside,
-.row .image-flip.hover .frontside {
-  -webkit-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
-.row .mainflip {
-  -webkit-transition: 1s;
-  -webkit-transform-style: preserve-3d;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  -moz-transform: perspective(1000px);
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transition: 1s;
-  transform-style: preserve-3d;
-  position: relative;
-}
-.row .mainflip .frontside {
-  position: relative;
-  -webkit-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
-  z-index: 2;
-  /* margin-bottom: 30px; */
-  /* Lista de juegos */
-}
-.row .mainflip .frontside .imgjuegos {
-  border-radius: 10px !important;
-}
-.row .mainflip .frontside .imgjuegos:hover {
-  border: solid;
-  border-color: rgba(28, 28, 155, 0.884);
-  transform: scale(1.1, 1.1);
-}
-.row .mainflip .backside {
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-transform: rotateY(-180deg);
-  -ms-transform: rotateY(-180deg);
-  -o-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-  -ms-transform: rotateY(-180deg);
-}
-.row .mainflip .frontside,
-.row .mainflip .backside {
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transition: 2s;
-  -webkit-transform-style: preserve-3d;
-  -moz-transition: 2s;
-  -moz-transform-style: preserve-3d;
-  -o-transition: 2s;
-  -o-transform-style: preserve-3d;
-  -ms-transition: 2s;
-  -ms-transform-style: preserve-3d;
-  transition: 2s;
-  transform-style: preserve-3d;
 }
 
 .page-footer {

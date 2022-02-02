@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <!-- Favicom - Logo que aparece en las pestañas -->
     <link rel="shortcut icon" href="./Assets/images/logobdl-ico.jpg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" />
 
 </head>
 
@@ -54,11 +57,10 @@
         </nav>
 
     </header>
-
     <!-- encabezado fin -->
-
     <!-- main inicio -->
     <main class="conteiner-fluid">
+
         <marquee scrollamount=15 direction="left" class="marquesinaplay">
             <h2> Consolas Play Station </h2>
         </marquee>
@@ -102,308 +104,258 @@
             <div class="card-group">
                 <!-- Juego 1 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="El despertar de Matrix: Una experiencia de Unreal Engine 5"
-                                        class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/ap/rnd/202111/3023/2Xx5zJZOqDPuGZxQMf68YNaV.png?w=230"
-                                        srcset="https://image.api.playstation.com/vulcan/ap/rnd/202111/3023/2Xx5zJZOqDPuGZxQMf68YNaV.png?w=230&amp;thumb=false, https://image.api.playstation.com/vulcan/ap/rnd/202111/3023/2Xx5zJZOqDPuGZxQMf68YNaV.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/ap/rnd/202111/3023/2Xx5zJZOqDPuGZxQMf68YNaV.png?w=620&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">1 - El despertar de Matrix: Una experiencia de Unreal
-                                            Engine 5</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="Matrix Awakens" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/Matrix_Awakens.jpg">
+                            <div class="card-body text-center">
+                                <p class="card-text">1 - El despertar de Matrix</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/ZJEsraOMZ9k" frameborder="0"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" >
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/The Matrix Awakens_ An Unreal Engine.mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
                 <!-- Juego 1 fin -->
                 <!-- Juego 2 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="Godfall Edición Challenger" class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/ap/rnd/202111/2918/ir4GYQ1FOvztaNa8QygbxfLf.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/ap/rnd/202111/2918/ir4GYQ1FOvztaNa8QygbxfLf.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/ap/rnd/202111/2918/ir4GYQ1FOvztaNa8QygbxfLf.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/ap/rnd/202111/2918/ir4GYQ1FOvztaNa8QygbxfLf.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">2 - Godfall Edición Challenger</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="Marvel's Spider-Man: Miles Morales" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/spiderManMilesMorales.webp">
+                            <div class="card-body text-center">
+                                <p class="card-text">2 - Marvel's Spider-Man: Miles Morales PS4 & PS5</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/lS6PVLwX590" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/Marvel’s Spider-Man_ Miles Morales.mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 2 fin -->
                 <!-- Juego 3 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="Fortnite" class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/img/rnd/202112/0508/9SK4qg9A0A94chx1WCp32UEh.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/img/rnd/202112/0508/9SK4qg9A0A94chx1WCp32UEh.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/img/rnd/202112/0508/9SK4qg9A0A94chx1WCp32UEh.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/img/rnd/202112/0508/9SK4qg9A0A94chx1WCp32UEh.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">3 - Fornite</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="Fornite" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/fornite.webp">
+                            <div class="card-body text-center">
+                                <p class="card-text">3 - Fornite</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/H-sFdMgJ93M" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/Fortnite - Unreal Engine 4 Gameplay _ PS5-(480p).mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 3 fin -->
                 <!-- Juego 4 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="FIFA 22 para PS5™" class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/img/rnd/202111/0822/zDXM9K2cQiq0vKTDwF0TkAor.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/img/rnd/202111/0822/zDXM9K2cQiq0vKTDwF0TkAor.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/img/rnd/202111/0822/zDXM9K2cQiq0vKTDwF0TkAor.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/img/rnd/202111/0822/zDXM9K2cQiq0vKTDwF0TkAor.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">4 - FIFA 22 para PS5™</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="FIFA 22 para PS5™" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/fifa22.webp">
+                            <div class="card-body text-center">
+                                <p class="card-text">4 - FIFA 22 para PS5™</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/axZo-L9_XPo" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/FIFA 22 - PlayStation España-(480p).mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 4 fin -->
                 <!-- Juego 5 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="Call of Duty®: Vanguard - Acceso Gratuito al Multijugador"
-                                        class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/ap/rnd/202112/1018/CA2piXJeK36tExfQnjG4YUh0.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/ap/rnd/202112/1018/CA2piXJeK36tExfQnjG4YUh0.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/ap/rnd/202112/1018/CA2piXJeK36tExfQnjG4YUh0.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/ap/rnd/202112/1018/CA2piXJeK36tExfQnjG4YUh0.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">5 - Call of Duty®: VanguardCall of Duty®: Vanguard - Acceso
-                                            Gratuito al Multijugador</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="Battefield 2042" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/battefield.webp">
+                            <div class="card-body text-center">
+                                <p class="card-text">5 - Battefield 2042</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/QqF1g-87U1U" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/Battlefield 2042 - PS5, PS4-(480p).mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 5 fin -->
                 <!-- Juego 6 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="Marvel's Spider-Man: Miles Morales PS4 &amp; PS5"
-                                        class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">6 - Marvel's Spider-Man: Miles Morales PS4 & PS5</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="Call of Duty®: Vanguard - Acceso Gratuito al Multijugador" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/CallOfDuty.jfif">
+                            <div class="card-body text-center">
+                                <p class="card-text">6 - Call of Duty®: Vanguard</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/NTunTURbyUU" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/Call of Duty_ PS5, PS4-(480p).mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 6 fin -->
                 <!-- Juego 7 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="eFootball™ 2022" class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/img/rnd/202110/2805/KvDDja9QKnvDZhBC2GOtvUlc.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/img/rnd/202110/2805/KvDDja9QKnvDZhBC2GOtvUlc.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/img/rnd/202110/2805/KvDDja9QKnvDZhBC2GOtvUlc.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/img/rnd/202110/2805/KvDDja9QKnvDZhBC2GOtvUlc.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">7 - eFootball™ 2022</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="eFootball™ 2022" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/eFootball.webp">
+                            <div class="card-body text-center">
+                                <p class="card-text">7 - eFootball™ 2022</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/L59361P1U6g" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/eFootball™ 2022 Launch Trailer-(480p).mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 7 fin -->
                 <!-- Juego 8 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="Assassin's Creed® Valhalla" class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/ap/rnd/202008/1318/8XGEPtD1xoasK0FYkYNcCn1z.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/ap/rnd/202008/1318/8XGEPtD1xoasK0FYkYNcCn1z.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/ap/rnd/202008/1318/8XGEPtD1xoasK0FYkYNcCn1z.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/ap/rnd/202008/1318/8XGEPtD1xoasK0FYkYNcCn1z.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">8 - Assassin's Creed® Valhalla</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="Assassin's Creed® Valhalla" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/assassinsCreedValhalla.webp">
+                            <div class="card-body text-center">
+                                <p class="card-text">8 - Assassin's Creed® Valhalla</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/6TXx0guC5zE" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/Assassin's Creed Valhalla - Trailer _ PS5, PS4-(480p).mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 8 fin -->
                 <!-- Juego 9 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="Mortal&nbsp;Kombat&nbsp;11" class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/ap/rnd/202009/0123/bF1qmEL5RM6aMfL0oLcxRe8B.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/ap/rnd/202009/0123/bF1qmEL5RM6aMfL0oLcxRe8B.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/ap/rnd/202009/0123/bF1qmEL5RM6aMfL0oLcxRe8B.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/ap/rnd/202009/0123/bF1qmEL5RM6aMfL0oLcxRe8B.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">9 - Mortal Kombat 11</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="Mortal&nbsp;Kombat&nbsp;11" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/MortalKombat.jfif">
+                            <div class="card-body text-center">
+                                <p class="card-text">9 - Mortal&nbsp;Kombat&nbsp;11</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/OEQsQqkEKMA" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/Mortal Kombat 11 Ultimate - Launch Trailer _ PS5-(480p).mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 9 fin -->
                 <!-- Juego 10 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="Hunter's Arena: Legends" class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/img/rnd/202107/1908/6fTogT8tX2cN24RmNjliuKXE.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/img/rnd/202107/1908/6fTogT8tX2cN24RmNjliuKXE.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/img/rnd/202107/1908/6fTogT8tX2cN24RmNjliuKXE.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/img/rnd/202107/1908/6fTogT8tX2cN24RmNjliuKXE.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">10 - Hunter's Arena: Legends</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="Hunter's Arena: Legends" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/HuntersArena.jfif">
+                            <div class="card-body text-center">
+                                <p class="card-text">10 - Hunter's Arena: Legends</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/p5rtf3Q2HgQ" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/Hunter's Arena_ Legends - PS5, PS4-(480p).mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 10 fin -->
                 <!-- Juego 11 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="Destruction AllStars" class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/img/rnd/202105/0609/7jsAaWyTDwWWn4WTdPMHeaza.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/img/rnd/202105/0609/7jsAaWyTDwWWn4WTdPMHeaza.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/img/rnd/202105/0609/7jsAaWyTDwWWn4WTdPMHeaza.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/img/rnd/202105/0609/7jsAaWyTDwWWn4WTdPMHeaza.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">11 - Destruction AllStars</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="Destruction AllStars" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/destruccionAllStars.webp">
+                            <div class="card-body text-center">
+                                <p class="card-text">11 - Destruction AllStars</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/nNO1k5NCDOk" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/Destruction AllStars - Tráiler de Lanzamiento _ PS5-(480p).mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 11 fin -->
                 <!-- Juego 12 -->
                 <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card" style="width: 100%;">
-                                    <img alt="ASTRO's PLAYROOM" class="card-img-top imgjuegos"
-                                        src="https://image.api.playstation.com/vulcan/ap/rnd/202010/2012/T3h5aafdjR8k7GJAG82832De.png?w=180"
-                                        srcset="https://image.api.playstation.com/vulcan/ap/rnd/202010/2012/T3h5aafdjR8k7GJAG82832De.png?w=180&amp;thumb=false, https://image.api.playstation.com/vulcan/ap/rnd/202010/2012/T3h5aafdjR8k7GJAG82832De.png?w=440&amp;thumb=false 1.5x, https://image.api.playstation.com/vulcan/ap/rnd/202010/2012/T3h5aafdjR8k7GJAG82832De.png?w=440&amp;thumb=false 2x">
-                                    <div class="card-body text-center">
-                                        <p class="card-text">12 - ASTRO's PLAYROOM</p>
-                                    </div>
-                                </div>
+                    <div class="frontside">
+                        <div class="card" style="width: 100%;">
+                            <img alt="ASTRO's PLAYROOM" class="card-img-top imgjuegos"
+                                src="../Assets/images/ps/juegos/AstroPlayroom.jfif">
+                            <div class="card-body text-center">
+                                <p class="card-text">2 - Marvel's Spider-Man: Miles Morales PS4 & PS5</p>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <iframe src="https://www.youtube.com/embed/lu5VXrEqgco" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen width="100%"></iframe>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+                                <div class="play-video-icon btn-play-local-video"
+                                    data-srcLocalVideo="../Assets/videos/ps/Astro's Playroom - Trailer _ PS5-(480p).mp4">
+                                    <i class="fas fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
+
                         </div>
                     </div>
                 </div>
                 <!-- Juego 12 fin -->
+
+                <div id="localVideoModal2" class="modal fade" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <video id="localVideo" controls autoplay loop class="local-video"
+                                    style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                                </video>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
 
             </div>
         </div>
@@ -442,9 +394,12 @@
                     <h5 class="text-uppercase text-center">Links</h5>
 
                     <ul class="list-inline text-center">
-                        <li class="list-inline-item"><a href=""><img src="../Assets/icons/icons8-facebook-48.png" alt="facebook"></a></li>
-                        <li class="list-inline-item"><a href=""><img src="../Assets/icons/icons8-instagram-48.png" alt="instagram"></a></li>
-                        <li class="list-inline-item"><a href=""><img src="../Assets/icons/icons8-twitter-48.png" alt="youtube"></a></li>
+                        <li class="list-inline-item"><a href=""><img src="../Assets/icons/icons8-facebook-48.png"
+                                    alt="facebook"></a></li>
+                        <li class="list-inline-item"><a href=""><img src="../Assets/icons/icons8-instagram-48.png"
+                                    alt="instagram"></a></li>
+                        <li class="list-inline-item"><a href=""><img src="../Assets/icons/icons8-twitter-48.png"
+                                    alt="youtube"></a></li>
                     </ul>
 
                 </div>
@@ -477,7 +432,38 @@
     <!-- otros links -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!-- <script>
+        $(document).ready(function () {
+            $(".myvideos").on("mouseover", function (event) {
+                this.play();
+
+            }).on('mouseout', function (event) {
+                this.pause();
+
+            });
+        })
+    </script> -->
+    <script>
+        $(document).on('click', '.btn-play-local-video, .play-local-video-icon', function (e) {
+
+            e.preventDefault();
+            var videoId = $(this).attr('data-srcLocalVideo'); //obtiene url del video en el boton
+            $("#localVideoModal2 video").attr('src', videoId);
+            $("#localVideoModal2").modal('show');
+        });
+
+        //cerrar el modal
+        $("#localVideoModal2 .btn").click(function () {
+            $("#localVideoModal2 video").get(0).pause(); // detiene el video
+            //elimina la url del video en la etiqueta <source>
+            $("#localVideoModal2 video").attr('src', '');
+            //elimina la etiqueta <source> en <video>
+        });
+    </script>
 </body>
 
 </html>

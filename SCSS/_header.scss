@@ -22,10 +22,10 @@
             color: $color-blanco!important;
         }
         & .nav-link:hover{
-            font-size: 150%;
+            // font-size: 150%;
+            text-shadow: 0.1em 0.1em $color-negro!important;
         }
     }
-    
     & .btn{
         color: $color-blanco!important;
     }
